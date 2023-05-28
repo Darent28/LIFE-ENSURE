@@ -1,0 +1,55 @@
+.incidencia-form-container{
+    width: 900px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(137, 216, 255, 0.205);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+
+
+}
+
+.h2-incidencia{
+    margin-top: 8px;
+}
+
+.incidencia-form-container form{
+    margin:0;
+    max-width: none;
+
+}
+
+.incidencia-form-content{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-bottom: 12px;
+
+}
+
+
+
+
+.incidencia-form-container button{
+    border-radius: 8px;
+}
+
+.getCurrentLocation button{
+padding: 8px;
+ font-size: 12px;
+ height: auto;
+ margin-top: 37px;
+}
+
+.FaExclamationTriangle{
+    width: 100px;
+    height: 100px;
+    color: #2dffb6;
+    stroke-width: 6px;
+    stroke: #000000;
+    margin-bottom: 8px;
+}

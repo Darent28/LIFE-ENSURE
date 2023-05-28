@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    /* max-width: 400px; */
+    margin: 20px auto;
+
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #2dffb6;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #28ffb79b;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .carousel-item img{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    filter: blur(8px); 
+    text-align: center;
+    background-color: #000000;
+    text-size-adjust: flex;
+  }
+  
+  .margen{
+
+    height: 80px;
+
+  }
+
+  .login{
+    height: 600px;
+  }
+
+
+
+
+
+  

@@ -1,0 +1,89 @@
+.form-container {
+    max-width: 600px;
+    margin: 60px auto 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(137, 216, 255, 0.205);
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+  }
+
+  .f-auto-content{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-bottom: 12px;
+
+  }
+
+  .f-auto-content label{
+      font-size: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #2dffb6;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .form-container button[type="submit"] {
+    background-color: #28ffb79b;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    margin: 10px 0 0 65px;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #2dffb6;
+  }
+  
+
+  /*-----------f-auto-container--------------*/
+
+.f-auto-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.f-auto-container label{
+    margin-left: 20px;
+}
+
+.f-auto-container label:first-child{
+    margin-left: 0;
+}
+
+.FaCar {
+  width: 100px;
+  height: 100px;
+  color: #2dffb6;
+  margin-bottom: 10px;
+  stroke-width: 6px;
+    stroke: #000000;
+}
+.carBrand{
+
+    box-shadow: #000000;
+    text-shadow: #2dffb6;
+    
+
+}
+

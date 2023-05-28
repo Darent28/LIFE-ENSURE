@@ -1,0 +1,53 @@
+.FaAddressCard{
+    width: 100px;
+    height: 100px;
+    color: #2dffb6;
+    stroke-width: 6px;
+    stroke: #000000;
+
+}
+
+.register-form-container{
+    background: rgba(137, 216, 255, 0.205);
+    width: 600px;
+    border-radius: 20px;
+    padding: 4px 0 4px 0;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.register-form-container form{
+  max-width: 400px;
+}
+
+.register-form-container button{
+  border-radius: 8px;
+}
+
+
+  /* Estilos específicos para el formulario */
+  #nombre,
+  #telefono,
+  #email,
+  #licencia,
+  #genero,
+  #alcoholismo,
+  #edad,
+  #cinturon,
+  .register-form-container select{
+    margin-bottom: 7px;
+  }
+  
+  #genero label,
+  #alcoholismo label,
+  #cinturon label {
+    margin-right: 10px;
+  }
+  
+ 
+  
+
+
+
+
+

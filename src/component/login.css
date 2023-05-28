@@ -1,0 +1,36 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 80px;
+  padding: 30px 0;
+  align-items: center;
+  align-self: center;
+  background: rgba(137, 216, 255, 0.205);
+  width: 600px;
+  border-radius: 20px;
+}
+
+.login-form-container form{
+  max-width: 400px;
+}
+
+.login{
+  margin-bottom: 85px;
+}
+
+.login-form-container button {
+  border-radius: 8px;
+}
+
+
+
+.FaUser {
+  width: 100px;
+  height: 100px;
+  color: #2dffb6;
+  stroke-width: 6px;
+    stroke: #000000;
+
+}
